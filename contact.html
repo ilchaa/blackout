@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poliranje i dubinsko pranje automobila - BLACKOUT car detailing Nis</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="logowhite.png" class="logo-contact" fill="currentColor">
+    </div>
+    <!--  navigation -->
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">NASLOVNA</a></li>
+                <li><a href="favors.html">USLUGE</a></li>
+                <li><a href="#">CENOVNIK</a></li>
+                <li><a href="#">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+
+    <div class="formcontainer">
+        <div class="textcontainer">
+            <h1>POŠALJITE NAM UPIT</h1>
+            <p>
+                Niste sigurni koji od naših paketa bi bio najadekvatniji za Vaš automobil? Slobodno nas kontaktirajte i
+                svratite, kako bismo pogledali Vaš automobil i dali predlog tretmana.
+            </p>
+
+            <p id="call">Pozovite nas</p>
+            <h1 id="num">061 4543 225 | 018 123 456</h1>
+
+            <p id="call">Stupite u kontakt sa nama</p>
+            <h1>INFO@BLACKOUT.RS</h1>
+
+            <p id="call">Posetite nas</p>
+            <h1>VLADIMIRA MILIĆA 26, 18116 NIŠ-BRZI BROD</h1>
+        </div>
+        <form action="https://formsubmit.co/stojanovicilija03@gmail.com" method="POST">
+            <input type="text" id="name" placeholder="Vaše ime" required>
+            <input type="text" id="lastname" placeholder="Vaše Prezime" required>
+            <input type="email" id="email" placeholder="Email Adresa" required>
+            <input type="text" id="phone" placeholder="Telefon (opciono)">
+            <textarea id="message" rows="4" placeholder="Poruka"></textarea>
+            <button type="submit">Pošalji</button>
+        </form>
+    </div>
+
+    <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305.16207860369445!2d21.964467013609386!3d43.30991926658123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b06a96213d65%3A0x3992c4078d89c546!2sVladimira%20Milic%CC%81a%2026%2C%20Brzi%20Brod!5e0!3m2!1sen!2srs!4v1681072798825!5m2!1sen!2srs"
+        width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- footer -->
+
+    <section id="footer">
+        <div class="footer-box">
+            <div class="footer-info">
+                <div class="title-info">
+                    <h3>BLACKOUT DOO</h3>
+                </div>
+                <p>
+                    Maksimalno posvećeni Vašem automobilu.
+                    Uz premium opremu i preparate,
+                    možete biti sigurni da ste odabrali
+                    najbolji detailing servis.
+                </p>
+            </div>
+
+            <div class="footer-usluge">
+                <div class="title-u">
+                    <h3>NAŠE USLUGE</h3>
+                </div>
+
+                <p>
+                <ul id="f-usluge">
+                    <li><a id="f" href="#">Poliranje automobila</a></li>
+                    <li><a id="f" href="#">Detaljno čišćenje / dubinsko pranje</a></li>
+                    <li><a id="f" href="#">Čišćenje motornog prostora</a></li>
+                    <li><a id="f" href="#">Čišćenje zaprljanih felni</a></li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="footer-rv">
+                <div class="title-rv">
+                    <h3>RADNO VREME</h3>
+                </div>
+
+                <p>
+                <h4>Ponedeljak - Petak</h4>
+                08:00 - 16:00<br>
+                <h4>Subota - Nedelja</h4>
+                Neradni dani
+                </p>
+            </div>
+
+            <div class="footer-ki">
+                <div class="title-ki">
+                    <h3>KONTAKT INFORMACIJE</h3>
+                </div>
+
+                <p>
+                    Vladimira Milića 26<br>
+                    18116 Niš, Brzi Brod<br><br>
+                    061 4543 225<br>
+                    018 123 456<br><br>
+                    info@blackout.rs
+                </p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2022. <b>BLACKOUT DOO NIŠ</b>. All rights reserved. Web design & development <color
+                    class="idesign">www.idesign.rs</color>
+            </p>
+        </div>
+    </section>
+
+    <!-- javascript -->
+
+    <script>
+
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "close.png";
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "menu.png";
+            }
+        }
+    </script>
