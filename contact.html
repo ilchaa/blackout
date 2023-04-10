@@ -53,11 +53,11 @@
             <h1>VLADIMIRA MILIĆA 26, 18116 NIŠ-BRZI BROD</h1>
         </div>
         <form action="https://formsubmit.co/482faa525154249c1fb928e8476e930f" method="POST">
-            <input type="text" id="name" placeholder="Vaše ime" required>
-            <input type="text" id="lastname" placeholder="Vaše Prezime" required>
-            <input type="email" id="email" placeholder="Email Adresa" required>
-            <input type="text" id="phone" placeholder="Telefon (opciono)">
-            <textarea id="message" rows="4" placeholder="Poruka"></textarea>
+            <input type="text" id="name" name="name" placeholder="Vaše ime" required>
+            <input type="text" id="lastname" name="lastname" placeholder="Vaše Prezime" required>
+            <input type="email" id="email" name="email" placeholder="Email Adresa" required>
+            <input type="text" id="phone" name="phone" placeholder="Telefon (opciono)">
+            <textarea id="message" rows="4" name="message" placeholder="Poruka"></textarea>
             <button type="submit">Pošalji</button>
         </form>
     </div>
@@ -136,7 +136,6 @@
     <!-- javascript -->
 
     <script>
-
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
