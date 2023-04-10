@@ -35,7 +35,7 @@
 
 #banner {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.010), #282828),
-    url('banner.webp');
+    url('banner.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -677,7 +677,7 @@ q {
 
 #banner-f {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.010), #282828),
-    url('banner.webp');
+    url('banner.jpg');
   background-size: cover;
   background-position: center;
   height: 50vh;
